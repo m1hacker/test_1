@@ -47,8 +47,8 @@ const LinkFooter = styled.a<{ isMobile?: boolean }>`
   justify-content: center;
   -webkit-align-items: center;
   align-items: center;
-  color: #999;
-  font-size: 12px;
+  color: #000000;
+  font-size: 2em;
   font-weight: 600;
   letter-spacing: 0.5px;
   padding-left: 24px;
@@ -56,7 +56,7 @@ const LinkFooter = styled.a<{ isMobile?: boolean }>`
   text-decoration: none;
 `;
 
-const Footer: React.FC<Props> = ({ isMobile, socials }) => {
+const Boton: React.FC<Props> = ({ isMobile, socials }) => {
   return (
     <FooterWraper>
       <PageFooter isMobile={isMobile}>
@@ -70,4 +70,4 @@ const Footer: React.FC<Props> = ({ isMobile, socials }) => {
   );
 };
 
-export default Footer;
+export default Boton;
