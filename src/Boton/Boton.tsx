@@ -47,8 +47,8 @@ const LinkFooter = styled.a<{ isMobile?: boolean }>`
   justify-content: center;
   -webkit-align-items: center;
   align-items: center;
-  color: #000000;
-  font-size: 2em;
+  color: #000000 !important;
+  font-size: 2em !important;
   font-weight: 600;
   letter-spacing: 0.5px;
   padding-left: 24px;

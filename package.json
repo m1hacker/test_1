@@ -1,6 +1,6 @@
 {
   "name": "giani_joto_01",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "gianni joto",
   "main": "dist/index.cjs.js",
   "module": "dist/index.esm.js",
